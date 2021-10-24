@@ -1,8 +1,11 @@
 <script>
 export let gitHub;
 </script>
-<h1>{gitHub}</h1>
-
+<div class="bg-info padding-5px">
+<h4>{gitHub}</h4>
+</div>
 <style>
-
+.padding-5px{
+    padding: 5px;
+}
 </style>

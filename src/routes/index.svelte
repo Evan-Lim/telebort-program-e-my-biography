@@ -21,11 +21,20 @@ let myPersonality = {
     item3: "Kind",
 }
 </script>
+<div class="text-center margin-custom">
 <Header title={"My Biography"} />
+<hr>
+
 <Section {...myInfo} />
+
+
 <Section {...myHobbies} />
+
 <Section {...myPersonality} />
 <Footer gitHub={"https://github.com/Evan-Lim/telebort-program-e-my-biography"}/>
+</div>
 <style>
-
+.margin-custom{
+    margin: 0px 100px;
+}
 </style>
